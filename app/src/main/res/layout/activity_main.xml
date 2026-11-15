@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="Campus Services"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnWebsite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Visit University Website" />
+
+    <Button
+        android:id="@+id/btnMaps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Campus on Map" />
+
+    <Button
+        android:id="@+id/btnDialer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call Contact Office" />
+
+    <Button
+        android:id="@+id/btnShare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share Campus Information" />
+
+    <Button
+        android:id="@+id/btnAboutCampus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Campus" />
+
+</LinearLayout>
